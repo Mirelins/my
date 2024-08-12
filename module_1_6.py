@@ -1,0 +1,15 @@
+my_dict={"Саша": 2004,'Таня': 2005,'Даша': 2007}
+print(my_dict)
+print(my_dict.get("Даша"))
+print(my_dict.get('Алена'))
+my_dict.update({'Артем': 2009,'Женя': 2002})
+a=my_dict.pop('Таня')
+print(a)
+print(my_dict)
+print('----------------------')
+my_set={1,14,"cat",'Apple',True,'cat'}
+print(my_set)
+my_set.add(45)
+my_set.add('table')
+my_set.remove(14)
+print(my_set)
